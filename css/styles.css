@@ -390,20 +390,21 @@ height: 88px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: #AFB1B8;
 }
-.link {
-}
+
 .coust-icons {
-  fill: #AFB1B8;
+  fill: currentColor;
 }
 
 .coust-link:is(:hover, :focus) {
   border-color: #404BBF;
+  color: #404BBF;
 }
 
-.coust-link:is(:hover, :focus) .coust-icons {
+/* .coust-link:is(:hover, :focus) .coust-icons {
   fill: #404BBF;
-}
+} */
 
 /* -----------------FOOTER---------------- */
 .footer {
@@ -417,7 +418,6 @@ padding-top: 100px;
 
 .footer-logo-container {
   width: 264px;
-  /* padding: 100px 0; */
 }
 
 .footer-logo > span {
@@ -535,7 +535,7 @@ color: #4D5AE5;
 cursor: pointer;
 background: #F4F4FD;
 padding: 12px 24px;
-}
+} 
 
 .filtr-btn:is(:hover, :focus) {
   color: #FFFFFF;
