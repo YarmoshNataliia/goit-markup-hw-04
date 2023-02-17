@@ -157,10 +157,6 @@ padding-bottom: 120px;
 }
 
 .header-border {
-  /* width: 100%;
-  border-bottom: 1px solid #E7E9FC;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08); */
-
 }
 
 /* ------------СЕККЦІЯ1--HERO---------------- */
@@ -266,6 +262,7 @@ padding-bottom: 120px;
 /* --------------Секція3 - SERVISES----------------- */
 .services-section {
   padding-bottom: 120px;
+  padding-top: 120px;
 
 }
 .services-title {
@@ -454,13 +451,11 @@ color: #4D5AE5;}
   margin-bottom: 16px;
 }
 
-.footer-icons
-
 .footer-text {
   font-size: var(--main-text-size);
   line-height: var(--typical-lh);
   letter-spacing: 0.02em;
-  color: var(--second-text-bg-dark-color);
+  color: #E7E9FC;
 }
 
 .footer-wraper {
@@ -505,7 +500,6 @@ height: 40px;
 .filter {
   padding-top: 96px;
   padding-bottom: 120px;
-  background-color: #ffffff;
 }
 
 .filter-container {
